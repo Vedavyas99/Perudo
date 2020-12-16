@@ -15,6 +15,7 @@ When a player calls and is wrong, they lose a dice. If a player makes a call and
 ### Important Methods
 * `setUpGui()` in the `PlayerClient` class sets up the players buttons and screen. Setup is dependent on which player joined, (aka player 1 or player 2).
 * `updateTurn()` in the `PlayerClient` class waits for a number from the server (which is the player's bet), and acts accordingly. It will either turn the dice buttons on, or receive the calculations from a call.
+* *Important Note*: The contents of the `.idea`, `out`, and `PerudoNetworkingProject > bin` folders may largely be ignored. The primary directory with the code for this project is in `Perudo > PerudoNetworkingProject > src > PerudoProject`.
 ## Getting Started
 ### Installation and Setup
 Clone this repository. This can be done through this command:
